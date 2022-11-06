@@ -81,7 +81,6 @@ class _BMIState extends State<BMI> {
                   SizedBox(
                     width: 20,
                   ),
-
                   CircleAvatar(
                     backgroundColor: Color.fromARGB(255, 255, 255, 255),
                     radius: 30,
@@ -90,10 +89,9 @@ class _BMIState extends State<BMI> {
                       size: 25.0,
                     ), //Text
                   ),
-                    SizedBox(
+                  SizedBox(
                     width: 10,
                   ),
-                 
                 ],
               ),
             ),
@@ -162,6 +160,7 @@ class _BMIState extends State<BMI> {
                 ],
               ),
               // box - 1
+              const SizedBox(height: 20),
               Container(
                   decoration: BoxDecoration(
                       borderRadius: const BorderRadius.all(
@@ -230,7 +229,7 @@ class _BMIState extends State<BMI> {
                       ),
                     ],
                   )),
-
+              const SizedBox(height: 20),
               // box - 2
               Container(
                   decoration: BoxDecoration(
